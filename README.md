@@ -78,14 +78,15 @@ More coming soon:
 uv venv
 source .venv/bin/activate
 uv pip install -e .
+uv add -r requirement.txt
 ```
 
-# Using pip
+<!-- # Using pip
 ```bash
 python -m venv .venv
 source .venv/bin/activate
 pip install -e .
-```
+``` -->
 
 # 🧪 Running Tests
 All models are validated against sklearn implementations
