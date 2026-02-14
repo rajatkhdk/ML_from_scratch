@@ -23,44 +23,15 @@ This project focuses on mathematics, gradients, optimization, and clean engineer
 
 ---
 
-# 📂 Project Structure
-```
-ML_from_scratch/
-│
-├── src/mlf/
-│ ├── linear_model/
-│ │ ├── linear_regression.py
-│ │ ├── logistic_regression.py
-│ │ └── README.md
-│ │
-│ ├── neighbors/
-│ │ ├── knn.py
-│ │ └── README.md
-│ │
-│ ├── tree/
-│ │ ├── decision_tree.py
-│ │ └── README.md
-│
-├── examples/
-├── tests/
-├── pyproject.toml
-├── requirements.txt
-└── README.md
-```
+## Algorithms
 
----
+| Algorithm | Type | File |
+|---|---|---|
+| Linear Regression | Regression | [linear_regression.py](src/mlf/linear_model/linear_regression.py) |
+| Logistic Regression | Classification | [logistic_regression.py](src/mlf/linear_model/logistic_regression.py) |
+| KNN | Classification | [knn.py](src/mlf/neighbors/knn.py) |
+| Decision Tree | Classification | [decision_tree.py](src/mlf/tree/decision_tree.py) |
 
-# ✅ Implemented Algorithms
-
-## Linear Models
-- Linear Regression (Gradient Descent)
-- Logistic Regression (Binary Classification)
-
-## Neighbors
-- K-Nearest Neighbors (KNN)
-
-## Trees
-- Decision Tree (basic implementation)
 
 More coming soon:
 - Naive Bayes
